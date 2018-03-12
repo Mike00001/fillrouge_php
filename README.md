@@ -1,5 +1,7 @@
 # fillrouge_php  
 
+
+## Not compatible with Mac Users if using data_base (password request in connection.php and articles.php)
 ### Team
 1. Mickael Van Craenenbroeck
 2. Kateryna Grygorko
