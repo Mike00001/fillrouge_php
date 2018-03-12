@@ -1,6 +1,6 @@
 # fillrouge_php  
 
-* Team
+### Team
 1. Mickael Van Craenenbroeck
 2. Kateryna Grygorko
 3. Farid Hammouten
