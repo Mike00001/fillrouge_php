@@ -1,5 +1,10 @@
 # fillrouge_php  
 
+* Team
+1. Mickael Van Craenenbroeck
+2. Kateryna Grygorko
+3. Farid Hammouten
+
 ### Blog accompagnant le site
 - original 
 https://www.facebook.com/ComiteNotreDameauxNeiges/
