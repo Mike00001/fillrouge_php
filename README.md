@@ -1,24 +1,38 @@
-# fillrouge_php
-Blog 
+# fillrouge_php  
 
 
-Guest side blog
-The blog will include at least 7 articles and at least 3 categories.
-Each article will include a title, content, date of publication, and one or more affiliated categories. (constraint: at least one article must be affiliated to several categories)
-It must be possible to display on a category page the different articles of a single category.
-The homepage of the blog must display the last 5 articles.
-Use include for the header, menu, footer of your different pages.
-BONUS: provide different authors. If you do that, we want a page that displays all the articles of an author.
+## Not compatible with Mac Users if using data_base (password request in connection.php and articles.php)
+### Team
+1. Mickael Van Craenenbroeck
+2. Kateryna Grygorko
+3. Farid Hammouten
 
-For texts, you can either use the lorem ipsum or use text from the original site.
+### Blog accompagnant le site
+- original 
+https://www.facebook.com/ComiteNotreDameauxNeiges/
+- modified by Mickael Van Craenenbroeck
+https://github.com/Mike00001/filrouge
 
-Admin side blog
-Menu that offers new options when connected (example: links to article management, categories)
-Login to the blog with at least one account (a user of type admin).
-A dashboard with the list of all articles, their categories, their authors.
-Possibility to add an article
-Possibility of modifying an article
-Ability to delete an item
-Ability to add a category
-Ability to edit a category
-Ability to delete a category
+
+
+#### Blog côté visiteurs
+- Blog has more than 3 categories, 7 articles
+- Every post has a title, content, publication date, and Author
+- Navbar has all categories and display certain type of categorie with a click
+- Used system of "includes" with footer.php, header.php ...
+- Every Author has the button to add/edit/delete post after 'registre' and 'login'
+
+
+BONUS : Posibility to add numerous authors with "registre" button
+
+
+#### Blog côté admin
+- Admin: grygorko-nickname and 1234567890-password has extra button on side menu for Modifying the categories
+- Connexion au blog avec au moins un compte (un user de type admin).
+- Un dashboard avec la liste de tous les articles, leurs catégories, leurs auteurs.
+- Possibilité d'ajouter un article
+- Possibilité de modifier un article
+- Possibilité de supprimer un article
+- Possibilité d'ajouter une catégorie
+- Possibilité de modifier une catégorie
+- Possibilité de supprimer une catégorie
