@@ -23,12 +23,17 @@ require "./php/connection.php";
 						<h1><a href="./index.php">Notre Dame aux Neiges</a></h1>
 						<nav class="links">
                             <ul>
-                            <?php
+                                <!--<li><a href="./Entertainment.php">Entertainment</a></li>-->
+                                <!--<li><a href="./Family.php">Family</a></li>-->
+                                <!--<li><a href="./Education.php">Education</a></li>-->
+                                <!--<li><a href="./Sport.php">Sport</a></li>-->
+                                <!--<li><a href="./Others.php">Others</a></li>-->
+                     <?php
               $req=$con->query('SELECT * FROM categories');
               foreach ($req as $cat) {
               echo "<li><a href='./".$cat['name_categories'].".php'>".$cat['name_categories']."</a></li>";
                }
-               ?>
+             ?>
 							</ul>
 						</nav>
 						<nav class="main">
